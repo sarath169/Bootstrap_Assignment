@@ -103,7 +103,6 @@ body{
   text-align: center;
   color: lightgrey;
   font-weight: 100;
-  margin-bottom: 50px;
 }
 .card_local{
   margin-left: 10px;
@@ -139,13 +138,13 @@ body{
 }
 .middle_container4{
   display: inline-grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3,1fr);
   grid-column-gap: 10px;
 }
 .mc4_card{
   display: inline-grid;
   grid-row-gap: 10px;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2,1fr);
   grid-template-rows: auto auto auto auto;
 }
 .mc4_heading{
