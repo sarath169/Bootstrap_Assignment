@@ -118,6 +118,9 @@ body{
   color: white;
 }
 .carousel_item_conntainer1{
+  height: auto;
+  width: auto;
+  
   display: inline-grid;
   grid-template-columns: auto auto auto auto auto;
 }
@@ -155,6 +158,9 @@ body{
   color: white;
 }
 .mc4_image{
-  height: 50px;
+  height: 100%;
+
+}
+@media query and (max-width:480px) {
 
 }
